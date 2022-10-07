@@ -1,0 +1,17 @@
+body {
+    background-color: blue;
+}
+
+ul {
+    font-size: 18px;
+    background-color: orange;
+    padding-left: 5px;
+
+    
+}
+
+
+
+li::before {
+    content: "- ";
+}
